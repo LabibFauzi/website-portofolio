@@ -1,3 +1,5 @@
+@import '@fontsource/fira-code';
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -16,7 +18,6 @@
 body {
 	color: var(--foreground);
 	background: var(--background);
-	font-family: var(--font-fira-code);
 }
 
 .nav-link {
