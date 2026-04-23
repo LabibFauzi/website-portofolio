@@ -41,14 +41,14 @@ export default function Search() {
       <Button
         variant="outline"
         size="serach"
-        className="justify-between"
+        className="justify-between max-h-12"
         onClick={() => setIsOpen(true)}
       >
         <div className="flex items-center gap-2">
           <Image src="/icons/search.svg" alt="search" width={15} height={15} />
           search
         </div>
-        <div className="bg-secondary py-2 flex items-center text-xs text-text-suspended rounded-md px-2 gap-2">
+        <div className="bg-secondary py-2 lg:flex items-center text-xs text-text-suspended rounded-md px-2 gap-2 hidden">
           Alt + k
         </div>
       </Button>

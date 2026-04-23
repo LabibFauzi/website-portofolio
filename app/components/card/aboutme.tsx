@@ -29,9 +29,11 @@ export default function CardAboutMe() {
       <p className="text-xs leading-loose">
         I am a student with a strong interest in software development. I have been exploring programming for about 4 years and have gained approximately 1 year of internship experience in the industry.
       </p>
-      <Button className="">
-        resume
-        <Image src="/icons/resume.svg" alt="resume" width={15} height={15} />
+      <Button asChild>
+        <a href="/cv_labib.pdf" target="_blank" rel="noreferrer">
+          resume
+          <Image src="/icons/resume.svg" alt="resume" width={15} height={15} />
+        </a>
       </Button>
     </div>
   );
