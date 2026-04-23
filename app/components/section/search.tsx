@@ -58,25 +58,22 @@ export default function Search() {
           <DialogTitle>Site Navigation</DialogTitle>
         </VisuallyHidden>
 
-        <Command className="bg-black text-white">
+        <Command className="bg-primary p-4 text-white">
           <CommandInput placeholder="Search..." />
           <CommandList className="scrollbar">
             <CommandEmpty>No results found.</CommandEmpty>
-
-            <CommandGroup heading="Navigation">
-              <CommandItem value="home" onSelect={() => handleSelect("/")}>
-                <span>Home</span>
-              </CommandItem>
-              <CommandItem value="about me" onSelect={() => handleSelect("/aboutme")}>
-                <span>About Me</span>
-              </CommandItem>
-              <CommandItem value="projects" onSelect={() => handleSelect("/projects")}>
-                <span>Projects</span>
-              </CommandItem>
-              <CommandItem value="experience" onSelect={() => handleSelect("/experience")}>
-                <span>Experience</span>
-              </CommandItem>
-            </CommandGroup>
+            <CommandItem value="home" onSelect={() => handleSelect("/")}>
+              <span>Home</span>
+            </CommandItem>
+            <CommandItem value="about me" onSelect={() => handleSelect("/aboutme")}>
+              <span>About Me</span>
+            </CommandItem>
+            <CommandItem value="projects" onSelect={() => handleSelect("/projects")}>
+              <span>Projects</span>
+            </CommandItem>
+            <CommandItem value="experience" onSelect={() => handleSelect("/experience")}>
+              <span>Experience</span>
+            </CommandItem>
           </CommandList>
         </Command>
       </CommandDialog>

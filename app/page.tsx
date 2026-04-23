@@ -4,13 +4,14 @@ import CardSkills from "./components/card/skills";
 
 export default function Home() {
   return (
-    <div className="flex flex-col items-center w-[300px] lg:w-[500px]">
+    <div className="flex flex-col items-center w-[300px] lg:w-[500px] gap-7">
+      <h1 className="text-2xl underline">home</h1>
       <CardAboutMe />
-      <div className="flex flex-col p-8 gap-4 items-center" >
+      <div className="flex flex-col items-center gap-4 " >
         <h3 className="text-2xl">main_skills</h3>
         <CardSkills variant="main" />
       </div>
-      <div className="flex flex-col p-8 gap-7 items-center">
+      <div className="flex flex-col items-center gap-4">
         <h3 className="text-2xl">featured_projects</h3>
         <CardProjects variant="main" />
       </div>

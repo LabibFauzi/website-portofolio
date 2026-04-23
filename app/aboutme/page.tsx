@@ -1,6 +1,7 @@
 export default function AboutMe() {
   return (
-    <div className="flex flex-col items-center w-[300px] lg:w-[500px]">
+    <div className="flex flex-col items-center w-[300px] lg:w-[500px] gap-7">
+      <h1 className="text-2xl underline">about_me</h1>
       <div className="flex justify-center mb-10">
         <img
           src="/images/fotoku.jpg"

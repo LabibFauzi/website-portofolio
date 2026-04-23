@@ -21,7 +21,7 @@ export default function RootLayout({
         <div>
           <Search />
           <SideMenu />
-          <div className="flex justify-center gap-[100px] flex-col items-center mt-[150px]">
+          <div className="flex justify-center gap-[100px] flex-col items-center mt-[100px]">
             {children}
           </div>
           <Footer />

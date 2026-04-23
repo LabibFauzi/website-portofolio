@@ -5,8 +5,8 @@ import { Button } from "../../components/ui/button";
 export default function CardAboutMe() {
   return (
     <div className="flex flex-col border border-border p-8 gap-4 rounded">
-      <div className="flex w-full justify-between">
-        <h3 className="text-2xl">labib_fauzi</h3>
+      <div className="flex w-full justify-between gap-2">
+        <h3 className="lg:text-2xl text-xl">labib_fauzi</h3>
         <div className="flex gap-2">
           <Link href={"https://github.com/LabibFauzi"} target="_blank"><img src="/icons/github.svg" alt="" className="w-8 h-8" /></Link>
           <Link href={"https://www.instagram.com/labib.fauzi/"} target="_blank"><img src="/icons/instagram.svg" alt="" className="w-7 h-7" /></Link>

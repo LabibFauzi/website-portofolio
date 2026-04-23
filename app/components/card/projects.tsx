@@ -30,7 +30,7 @@ export default function CardProjects({ variant, category }: ProjectsProps) {
           className="flex bg-secondary p-4 flex-col gap-5  rounded-lg"
         >
           <div className="flex flex-col gap-2">
-            <div className="flex max-h-[200px]">
+            <div className="flex max-h-[200px] max-w-[400px]">
               <Image
                 src={project.src}
                 alt={project.title}
@@ -53,6 +53,7 @@ export default function CardProjects({ variant, category }: ProjectsProps) {
                   alt={badge.name}
                   width={15}
                   height={15}
+                  quality={100}
                 />
                 <p>{badge.name}</p>
               </Badge>
